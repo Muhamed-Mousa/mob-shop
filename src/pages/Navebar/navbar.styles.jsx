@@ -2,22 +2,18 @@ import styled from "styled-components";
 
 export const NavWrapper = styled.div`
   background-color: #1a1a1a;
-  margin: 0 auto;
-  width: 100%;
-  display: inline-block;
-
+ 
   .navbar-nav ul {
+    
     white-space: nowrap;
-    width: 100%;
-    margin: 4px;
+    margin: 0 auto;
+    
   }
 
   .navbar-nav li {
     display: inline-block;
-    width: 35%;
-    font-size: 15px;
-      font-weight: bold;
-
+    width: 27%;
+ 
     .nav-link {
       color: #fff;
         &:hover {
@@ -28,15 +24,16 @@ export const NavWrapper = styled.div`
           color: #939292;
         }
       }
-
   }
   
+    .navbar-collapse{
+      
+    }
     .navbar-brand {
       padding: 1px;
-      margin:0;
+      margin:0 auto;
       font-size: 29px;
-      font-weight: bold;
-
+      // font-weight: bold;
       &:hover {
         color: #4065e5;
         transition: all 0.3s ease;
@@ -45,16 +42,10 @@ export const NavWrapper = styled.div`
     
   .nav-link {
     .search-icon {
-      margin: 0;
-      padding: 0;
       color: #fff;
       font-size: 24px;
-
       &:hover {
         color: grey;
       }
   }
 `;
-
-
-

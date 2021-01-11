@@ -50,7 +50,7 @@ const Caro = () => {
 
             <Carousel.Caption>
               <h3></h3>
-              <p>.</p>
+              <p></p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>

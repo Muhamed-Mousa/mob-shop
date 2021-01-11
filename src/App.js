@@ -3,7 +3,6 @@ import  React  from 'react';
 // import { Switch, Route, Redirect} from 'react-router-dom'
 import { Route, Switch, Redirect } from 'react-router-dom'
 
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Navbar from './pages/Navebar/navbar.component';
 import About from './components/About/about.component';
